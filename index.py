@@ -31,11 +31,11 @@ def pagina_principal():
 
     return render_template('index.html')
 
-@app.route('//iniciar sesion')
+@app.route('//login')
 
 def inicio_de_sesion():
 
-    return render_template('iniciar_sesion.html')
+    return render_template('login.html')
 
 @app.route('//registrar usuario')
 
